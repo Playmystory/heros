@@ -94,19 +94,126 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Style de la police*/
+body {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 100%;
+}
 
+/*taille, image de fond et position de la section partie rapide*/
+.rapide  {
+  height: 780px;
+  background-image: url(../img/cyber.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top:10%;
 
+}
 
+@media all and (max-width:600px) {
+  .rapide {
+    background-position: -700px 0 ;
+  }
+  .campagne {
+    background-position: -300px 0;
+  }
+}
 
+/*Couleur des boutons*/
+.btnperso {
+  background-color: #eed39a !important;
+  color: #97855F !important;
+  border: 2px solid #eed39a !important;
+}
 
+/*Position du bouton*/
+#partierapide {
+margin: auto;
+display: block;
+margin-top: 10%;
+margin-bottom: 5%;
+}
 
+/*Hover du bouton partie rapide*/
+#partierapide:hover {
+  color:white !important;
+}
 
+/* bordure, position et couleur de fond du bloc partie rapide*/
+#rapide {
+  border:solid 3px #eed39a;
+  margin-top: 5%;
+  background-color:rgba(255,255,255,0.5);
 
+}
 
+/*Section campagne*/
+.campagne {
+  height: 790px;
+  background-image: url(../img/fantasy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top:15%;
 
+}
 
+/*bordure, position et couleur de fond du bloc partie campagne*/
+#campagne {
+  border:solid 3px #eed39a;
+  margin-top: 3%;
+  background-color:rgba(255,255,255,0.5);
+}
 
+/*Position du bouton*/
+#partiecampagne {
+  margin: auto;
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
 
+/*Hover du bouton partie campagne*/
+#partiecampagne:hover {
+  color: white !important;
+}
+
+/*Couleur de fond du footer*/
+footer {
+  background-color: #eed39a;
+}
+
+/*Position de la FAQ*/
+#faq {
+  padding-bottom: 5%;
+  margin-left: 15%;
+}
+
+/*Position de la liste de la FAQ*/
+footer li {
+  margin-left: 15%;
+}
+
+footer li a {
+  color:#333;
+}
+
+/*hover de la liste de la FAQ*/
+footer li a:hover {
+  color:white;
+  text-decoration: none;
+}
+
+/*Position du titre réseaux sociaux*/
+#reseaux {
+  padding-bottom: 5%;
+}
+
+/*Position et couleur des fafa réseaux sociaux*/
+#facebook, #twitter, #google {
+  margin-left: 15%;
+  color:#333;
+}
 
 
 

@@ -96,19 +96,137 @@ textarea {
    ========================================================================== */
 
 
+   section{
+       padding-top: 50px;
+       /*background-color: #eed39a;*/
+       background-color: white;
+   }
+
+       .thumbnail{
+       opacity: .8;
+       /*background-color: #eed39a;*/
+       background-color: white;
+       border: 20px solid transparent;
+       -webkit-border-image: url("../img/border.png") 100 round ; /* Safari 3.1-5 */
+       -o-border-image: url("../img/border.png") 100 round ; /* Opera 11-12.1 */
+       border-image: url("../img/border.png") 30 round ;
+       /*border-image: url("http://previews.123rf.com/images/lajo_2/lajo_21111/lajo_2111100004/11126313-floral-page-decoration-Stock-Vector-medieval-unity-de.jpg") 30 round ;*/
+   }
+
+   .thumbnail:hover{
+       opacity: 1;
+
+   }
+
+  i{
+      margin-right: 20px;
+  }
+
+/* Button play and note*/
+   .play{
+       width:140px;
+   }
+
+.vote{
+    width:140px;
+}
+
+ /* //Button play and note// */
+
+   /* NAVBAR*/
+
+   .navbar-brand {
+     position: absolute;
+     width: 100%;
+     left: 0;
+     top: 0;
+     text-align: center;
+     font-family: 'Audiowide', cursive;
+     color: rgb(0, 0, 0) !important;
+     margin: auto;
+   }
+
+   .navbar-inverse {
+     background-color: rgba(215, 215, 215, 0.6) !important;
+     background-image: none !important;
+     border: none !important;
+   }
+   #navdropd {
+     background-color: #16203E;
+   }
+   nav li a {
+     padding: 5px !important;
+     margin-top: 8px !important;
+   }
+   .btn-general {
+     background-color: #eed39a !important;
+     color: #6c5a33 !important;
+     border: 2px solid #eed39a !important;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 10px;
+     padding: 5px 0;
+     font-size: 1.1em;
+   }
+   .btn-general:hover {
+     background-color: #97855F !important;
+     color: #fff !important;
+     border: 2px solid #eed39a !important;
+   }
+   .btn-extensed {
+     padding: 20px;
+     font-size: 1.4em
+   }
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
+     background-color: #97855F !important;
+     background-image: none;
+   }
+   .navbar-header button {
+     background-color: #eed39a;
+   }
+  .navbar-inverse .navbar-toggle .icon-bar{
+     background-color: #000000 !important;
+   }
+  .navbar-header .navbar-toggle {
+  padding: 10px 10px;
+  margin-top: 5px;
+  }
+
+  /* //NAVBAR // */
 
 
 
+  /*Couleur de fond du footer*/
+  footer {
+  background-color: #eed39a;
+  }
 
+  /*Position de la FAQ*/
+  #faq {
+  padding-bottom: 5%;
+  margin-left: 15%;
+  }
 
+  /*Position de la liste de la FAQ*/
+  footer li {
+  margin-left: 15%;
+  }
 
+  /*hover de la liste de la FAQ*/
+  footer li:hover {
+  color:white;
+  }
 
+  /*Position du titre réseaux sociaux*/
+  #reseaux {
+  padding-bottom: 5%;
+  }
 
-
-
-
-
-
+  /*Position et couleur des fafa réseaux sociaux*/
+  #facebook, #twitter, #google {
+  margin-left: 15%;
+  color:#333;
+  }
 
 
 /* ==========================================================================
