@@ -481,6 +481,14 @@ body{
 	z-index: 9999;
 }
 
+#clear{
+    display: none; /*--masqué par défaut--*/
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: 1;
+	z-index: 9999;
+}
+
 .popup_block{
 	display: none; /*--masqué par défaut--*/
 	/*background: #fff;*/
