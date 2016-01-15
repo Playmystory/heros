@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <style>
 
         * {
@@ -21,10 +22,13 @@
         }
 
         body {
-            display: table-cell;
+            /*display: table-cell;
             vertical-align: middle;
-            margin: 2em auto;
-        }
+            margin: 2em auto; */
+            background-image: url(img/boussole.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+               }
 
         h1 {
             color: #555;
@@ -34,8 +38,22 @@
 
         p {
             margin: 0 auto;
-            width: 280px;
+            margin-top: 20px;
+            width: 300px;
         }
+
+        #back {
+          margin-top: 600px;
+          width: 500px;
+          font-size: 1.3em;
+
+        }
+
+       #back a {
+         color : #555;
+         text-decoration: none;
+       }
+
 
         @media only screen and (max-width: 280px) {
 
@@ -53,8 +71,10 @@
     </style>
 </head>
 <body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+    <h1>404 - Héros perdu !</h1>
+    <p>Le chemin que vous avez emprunté ne mène nulle part.</p>
+    <p id="back"><i class="fa fa-long-arrow-right fa-2x"></i> <a href="index.html">Revenez sur vos pas !</a> <i class="fa fa-long-arrow-left fa-2x"></i>
+</p>
 </body>
 </html>
 <!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
