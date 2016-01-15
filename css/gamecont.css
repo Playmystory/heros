@@ -140,3 +140,22 @@ h1{
   left: 2%;
   bottom: 2%;
 }
+
+.welcom{
+  position:absolute;
+  height: 50%;
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 25%;
+  background-color: rgb(215, 215, 215);
+  border: 4px solid #283593;
+  border-radius: 15px;
+}
+
+.welcomtxt {
+  opacity: 0;
+  font-size: 2em;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  margin-top: 5%;
+}
