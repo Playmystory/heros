@@ -97,13 +97,6 @@ textarea {
 
 
    /* =========================general============================ */
-body {
-    background-color: rgba(255,255,255,0.5);
-    padding-top: 60px;
-    color:#212328;
-    font-family: 'Audiowide', cursive;
-    text-align: justify;
-}
 
 .breadcrumb {
     background-color:rgba(255,255,255,0.5);
@@ -196,11 +189,18 @@ margin-top: 5px;
 
 /* =========================qui sommes-nous=========================== */
 
+#who {
+    padding: 100px 0;
+}
+
+#who2 {
+    padding: 60px 0;
+}
+
 .quisommesnous {
-    padding-top: 60px;
-    padding:20px;
     margin-top:20px;
     margin-bottom: 20px;
+    padding: 60px,0;
 }
 
 /*/avatars///*/
@@ -326,16 +326,19 @@ transition: all .5s ease;
 }
 
 .about {
-    padding-top: 60px;
     background-color:#eceff1;
     padding:20px;
 }
-
+#about{
+    padding: 60px 0;
+}
 /* =========================contact============================ */
 
+#contact {
+    padding: 60px 0;
+}
 .contact {
     margin-top:30px;
-    padding-top: 60px;
     padding:20px;
 }
 
@@ -422,11 +425,21 @@ background-image: none;
     color:#283593;
 }
 
+.form-control {
+    font-family: 'Audiowide', cursive !important;
+}
+/* =========================rejoindre============================ */
+
+#come {
+padding: 60px 0;
+}
 
 /* =========================contribuer============================ */
 
+#contribuer {
+    padding: 60px 0;
+}
 .contribuer {
-    padding-top: 60px;
     background-color:#eceff1;
     padding:20px;
 }
@@ -442,11 +455,13 @@ background-image: none;
 
 /* =========================FAQ============================ */
 
-
+#questions{
+    padding: 60px 0;
+}
 .panel-group {
-    padding-top: 60px;
+    padding: 60px 0;
     background-color: #eceff1;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Audiowide', cursive !important;
 }
 
 .faq {
