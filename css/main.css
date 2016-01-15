@@ -125,6 +125,7 @@ textarea {
      background-color: #283593 !important;
      color: #fff !important;
      border: 2px solid #283593 !important;
+     border-radius: 6%;
      margin-left: 10px;
      margin-right: 10px;
      margin-top: 10px;
@@ -167,7 +168,7 @@ textarea {
    }
 
    #home {
-       height: 100%;
+       height: 100vh;
      margin-top: 50px;
      margin-left: 0;
      margin-right: 0;
@@ -262,6 +263,7 @@ textarea {
        background-size:cover;
        padding-top:5%;
        padding-bottom:5%;
+       height : 100vh;
       }
 
    @media all and (max-width:480px) {
@@ -333,8 +335,8 @@ textarea {
 
 /*taille, image de fond et position de la section partie création*/
 .creation {
-    height:100%;
-    background-color:rgba(255,255,255,0.5);
+  height : 100vh;
+  background-color:rgba(255,255,255,0.5);
   background-position: center;
   background-size: cover;
   padding-top:5%;
