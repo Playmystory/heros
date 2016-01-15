@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Le site dont vous êtes le héro</title>
-    <meta name="description" content="Histoires interactives">
+    <meta name="description" content="partie rapide page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -26,7 +26,7 @@
         <!-- NAVIGATION -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container">
-            <a class="navbar-brand nav-bar-center" href="#">PLAY MY STORY</a>
+            <a class="navbar-brand nav-bar-center" href="index.html">PLAY MY STORY</a>
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed btn-general" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -47,7 +47,17 @@
                     <li><a href="#topcreation" class="btn btn-general" role="button">Creation</a></li>
                   </ul>
                 </li>
-                <li><a href="#about" id="aboutbtn" class="btn btn-general" role="button">A propos</a></li>
+                <li id="btnplay2">
+                  <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">À propos
+                   <span class="caret"></span></a>
+                  <ul id="navdropd2" class="dropdown-menu">
+                    <li><a href="#about" class="btn btn-general" role="button">Qui sommes-nous ?</a></li>
+                    <li><a href="#contact" class="btn btn-general" role="button">Contactez-nous</a></li>
+                    <li><a href="#come" class="btn btn-general" role="button">Rejoignez-nous</a></li>
+                    <li><a href="#contribuer" class="btn btn-general" role="button">Contribuez</a></li>
+                    <li><a href="#questions" class="btn btn-general" role="button">FAQ</a></li>
+                  </ul>
+                </li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="login.html?#subscribe" id="inscbtn" class="btn btn-general" role="button"><span class="fa fa-user-plus"></span> Inscription</a></li>
