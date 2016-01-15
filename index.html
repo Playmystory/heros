@@ -17,9 +17,10 @@
 
   <!-- STYLESHEET -->
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/main.css">
+
 
   <!-- SCRIPTS -->
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -42,7 +43,7 @@
   <!-- NAVIGATION -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-      <a class="navbar-brand nav-bar-center" href="#">PLAY MY STORY</a>
+      <a class="navbar-brand nav-bar-center" href="index.html">PLAY MY STORY</a>
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed btn-general" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -53,17 +54,30 @@
       </div>
 
       <div class="navbar-collapse  collapse" id="navbar">
-        <ul class="nav navbar-nav navbar-left">
-          <li id="btnplay">
-            <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer
-             <span class="caret"></span></a>
-            <ul id="navdropd" class="dropdown-menu">
-              <li><a href="#topparties" class="btn btn-general" role="button">Jouez !</a></li>
-              <li><a href="#topcreation" class="btn btn-general" role="button">Création</a></li>
-            </ul>
-          </li>
-          <li><a href="faq-index.html" id="aboutbtn" class="btn btn-general" role="button">À propos</a></li>
-        </ul>
+
+          <ul class="nav navbar-nav navbar-left">
+            <li id="btnplay">
+              <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">Jouer
+               <span class="caret"></span></a>
+              <ul id="navdropd" class="dropdown-menu">
+                <li><a href="#toprapide" class="btn btn-general" role="button">Partie rapide</a></li>
+                <li><a href="#topcampagne" class="btn btn-general" role="button">Campagne</a></li>
+                <li><a href="#topcreation" class="btn btn-general" role="button">Creation</a></li>
+              </ul>
+            </li>
+            <li id="btnplay2">
+              <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">À propos
+               <span class="caret"></span></a>
+              <ul id="navdropd2" class="dropdown-menu">
+                <li><a href="#about" class="btn btn-general" role="button">Qui sommes-nous ?</a></li>
+                <li><a href="#contact" class="btn btn-general" role="button">Contactez-nous</a></li>
+                <li><a href="#come" class="btn btn-general" role="button">Rejoignez-nous</a></li>
+                <li><a href="#contribuer" class="btn btn-general" role="button">Contribuez</a></li>
+                <li><a href="#questions" class="btn btn-general" role="button">FAQ</a></li>
+              </ul>
+            </li>
+          </ul>
+
         <ul class="nav navbar-nav navbar-right">
           <li><a href="login.html?#subscribe" id="inscbtn" class="btn btn-general" role="button">Inscription</a></li>
           <li><a href="login.html?#login" id="connbtn" class="btn btn-general" role="button">Connexion</a></li>
@@ -205,7 +219,7 @@
     </div>
   </section>
 
-  <footer id="about">
+  <footer>
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 col-md-4">
