@@ -97,10 +97,6 @@ textarea {
 
 
    /* =========================general============================ */
-body {
-    padding-top: 60px;
-    font-family: 'Audiowide', cursive !important;
-}
 
 .breadcrumb {
     background-color:rgba(255,255,255,0.5);
