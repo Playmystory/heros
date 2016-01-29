@@ -186,7 +186,9 @@ padding: 10px 10px;
 margin-top: 5px;
 }
 
-
+.size {
+    width: 100%;
+}
 
 /* =========================MEDIA QUERIES============================ */
 
