@@ -137,7 +137,7 @@ body{
 }
 
 .tuto{
-    margin-top: -50px;
+    margin-top: 150px;
 }
 
 
@@ -239,10 +239,6 @@ body{
        width:140px;
        background-color:#E3001B !important;
    }
-
-.vote{
-    width:140px;
-}
 
  /* //Button play and note// */
 
@@ -542,4 +538,82 @@ position: absolute;
 
 .poplight{
     margin-left: 45%;
+}
+
+.story div img{
+    height: 400px;
+    width: 40%;
+}
+
+/*#medieval{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d9/Lorenzetti_amb.effect2.jpg");
+    height: 100vh;
+    width: 200vh;
+}*/
+
+.synopsis{
+    /*margin-top: 5%;*/
+    margin-left: 5%;
+}
+
+.play, .play:hover{
+    margin-left: 18%;
+}
+
+#fast_game{
+    margin-top: 5%;
+}
+
+.toggle-box {
+  display: none;
+}
+
+.toggle-box + label {
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 5px;
+}
+
+.toggle-box + label + div {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.toggle-box:checked + label + div {
+  display: block;
+}
+
+.toggle-box + label:before {
+  background-color: #4F5150;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  content: "+";
+  display: block;
+  float: left;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px;
+}
+
+.toggle-box:checked + label:before {
+  content: "\2212";
+}
+
+#searchthis{
+    margin-left: 35%;
+}
+
+.toggle-box{
+    margin-left: 35%;
+}
+
+#filter{
+
 }

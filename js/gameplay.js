@@ -2,20 +2,24 @@ var Elgamecontainer = document.getElementById("backgscene");
 var Elwelcom = document.createElement("div");
 Elwelcom.className="welcom";
 
-alert(Elgamecontainer);
 Elgamecontainer.appendChild(Elwelcom);
 
+var Elwelcombtn = document.createElement("a");
+
 var welcomtext = function () {
+
 // TEXT
   var Elwelcomtxt = document.createElement("p");
   Elwelcomtxt.className="welcomtxt";
   Elwelcomtxt.innerHTML="Bienvenue dans le tutoriel Playmystory";
   Elwelcom.appendChild(Elwelcomtxt);
 // BOUTON
-  var Elwelcombtn = document.createElement("button");
-  Elwelcombtn.className="btn-general";
+
+  Elwelcombtn.className="poplight";
+  Elwelcombtn.href="#?w=500";
+  Elwelcombtn.rel="popup_name";
   Elwelcombtn.style.width="80%";
-  Elwelcombtn.style.marginLeft="10%";
+  Elwelcombtn.style.marginLeft="45%";
   Elwelcombtn.style.opacity="0";
   Elwelcombtn.innerHTML="Let's go!";
   Elwelcom.appendChild(Elwelcombtn);
@@ -36,6 +40,7 @@ var welcomtext = function () {
 
 };
 
+
 var width = 0;
 var open = function() {
 var pas = 1;
@@ -46,4 +51,4 @@ var pas = 1;
     welcomtext();
   }
 };
-var animopen = setInterval(open,50);
+var animopen = setInterval(open,10);
