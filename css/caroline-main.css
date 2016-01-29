@@ -16,6 +16,9 @@ html {
     line-height: 1.4;
 }
 
+body {
+  font-family: 'Kurale', serif;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -103,7 +106,7 @@ textarea {
 }
 
 h2 {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
     color:#212328;
     text-align: center;
     font-size: 2.5em;
@@ -127,7 +130,7 @@ p {
   left: 0;
   top: 0;
   text-align: center;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Kurale', serif;
   color: rgb(0, 0, 0) !important;
   margin: auto;
 }
@@ -158,7 +161,7 @@ nav li a {
   margin-top: 10px;
   padding: 5px 0;
   font-size: 1.1em;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Kurale', serif;
 }
 .btn-general:hover {
   background-color: #9d9d9d !important;
@@ -368,7 +371,7 @@ background-image: none;
     color: #fff;
     border: 2px solid #283593 !important;
     /*background-image: none;*/
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
 }
 
 .faqbtn:hover {
@@ -427,7 +430,7 @@ background-image: none;
 }
 
 .form-control {
-    font-family: 'Audiowide', cursive !important;
+    font-family: 'Kurale', serif !important;
 }
 /* =========================rejoindre============================ */
 
@@ -450,7 +453,7 @@ padding: 60px 0;
 }
 
 .font {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
 }
 
 
@@ -462,7 +465,7 @@ padding: 60px 0;
 .panel-group {
     padding: 60px 0;
     background-color: #eceff1;
-    font-family: 'Audiowide', cursive !important;
+    font-family: 'Kurale', serif !important;
 }
 
 .faq {
@@ -539,7 +542,7 @@ padding: 60px 0;
     }
 
     p {
-        font-family: 'Audiowide', cursive;
+        font-family: 'Kurale', serif;
         text-align: center;
         font-size: 1.5em;
         color:white;
