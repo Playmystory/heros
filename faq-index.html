@@ -16,13 +16,14 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet" type="text/css">
     <!--icon-->
     <link rel="stylesheet" href="css/font-awesome.css" />
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/caroline-main.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -65,7 +66,7 @@
                         <a class="btn btn-general dropdown-toggle" role="button" data-toggle="dropdown">À propos
                          <span class="caret"></span></a>
                         <ul id="navdropd2" class="dropdown-menu">
-                          <li><a href="#about" class="btn btn-general" role="button">Qui sommes-nous ?</a></li>
+                          <li><a href="#who" class="btn btn-general" role="button">Qui sommes-nous ?</a></li>
                           <li><a href="#contact" class="btn btn-general" role="button">Contactez-nous</a></li>
                           <li><a href="#come" class="btn btn-general" role="button">Rejoignez-nous</a></li>
                           <li><a href="#contribuer" class="btn btn-general" role="button">Contribuez</a></li>
@@ -84,175 +85,22 @@
             <!-- END NAVBAR -->
 
 
-
-<!-- /////////////////////////////////QUI SOMMES-NOUS//////////////////////////////////// -->
-        <div class="container-fluid">
-            <div class="container">
-                <ol class="breadcrumb">
-                  <li><a href="index.html">Accueil</a></li>
-                  <li class="active"><a href="#contact">Contactez-nous</a></li>
-                  <li><a href="#come">Rejoignez-nous</a></li>
-                   <li><a href="#contribuer">Contribuez</a></li>
-                  <li><a href="#questions">FAQ</a></li>
-                </ol>
-        <div class="quisommesnous row col-lg-5" id="who">
-            <h2 class="text-center wowload fadeInUp">QUI SOMMES-NOUS ?</h2>
-
-            <br>
-            <p>Salut tout le monde ! Qui sommes-nous donc?! Telle est la question !
-                <br> Play My Story est composé de 6 personnes passionnées qui mettent en oeuvre tout leur temps et leur énergie pour vous concocter un site dédié au jeu dont VOUS êtes le héro !</p>
-            <p>Nous voici donc :</p>
-        </div><!--#quisommesnous-->
-        <div class="quisommesnous row col-lg-7">
-            <ul class="row text-center list-inline  wowload bounceInUp">
-                <li class="Sophie" data-toggle="tooltip" data-placement="left" title="Sophie">
-                    <img src="img/avatars-team/sophie.png" alt="avatar Sophie" class="img-responsive center-block" />
-                </li>
-                <li class="Caroline" data-toggle="tooltip" data-placement="bottom" title="Caroline">
-                    <img src="img/avatars-team/caroline.png" alt="avatar Caroline" class="img-responsive center-block" />
-                </li>
-                <li class="Jade" data-toggle="tooltip" data-placement="right" title="Jade">
-                    <img src="img/avatars-team/sophie.png" alt="avatar Jade" class="img-responsive center-block" />
-                </li>
-            </ul>
-            <ul class="row text-center list-inline  wowload bounceInUp">
-                <li class="Anthony" data-toggle="tooltip" data-placement="left" title="Anthony">
-                    <img src="img/avatars-team/anthony.png" alt="avatar Anthony" class="img-responsive center-block" />
-                </li>
-                <li class="Guillaume" data-toggle="tooltip" data-placement="bottom" title="Guillaume">
-                    <img src="img/avatars-team/guillaume.png" alt="avatar Guillaume" class="img-responsive center-block" />
-                </li>
-                <li class="Marc" data-toggle="tooltip" data-placement="right" title="Marc">
-                    <img src="img/avatars-team/marc.png" alt="avatar Marc" class="img-responsive center-block" />
-                </li>
-            </ul>
-        </div><!--#quisommesnous-->
-    </div><!--container-->
-
-
-
-    <div class="about">
+<!-- /////////////////////////////////A PROPOS/////////////////////////////////////// -->
+  <div class="row">
+    <div class="about col-lg-12" id="about">
         <h2>À PROPOS</h2>
         <br>
         <p>Vous pouvez trouver sur cette plateforme tout ce dont vous avez besoin pour vous éclater en jouant !
             <br> Vous laisser guider au gré de nos histoires courtes ou de nos campagnes, ou carrément créer votre propre histoire !
             <br> Alors, À vous de jouer ! </p>
     </div>
+  </div>
     <!--about-->
-
-    <!-- /////////////////////////////////CONTACT/////////////////////////////////////// -->
-
-    <section id="contact" class="contact container">
-        <div class="row text-center">
-            <div class="col-lg-12 col-xs-12">
-            <h2>CONTACTEZ-NOUS </h2>
-            <br>
-        </div>
-    </div>
-            <div class="containercontact">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="well well-sm">
-                            <form action="" method="post" enctype="text/plain" class="form-horizontal">
-                                <!-- ajouter la redirection des données vers notre mail avec backend -->
-                                <fieldset>
-                                    <br>
-                                    <!-- <legend class="text-center headercontact"></legend> -->
-
-                                    <div class="form-group">
-                                        <span class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-xs-12 text-left"><i class="fa fa-user bigicon"></i></span>
-                                        <div class="col-lg-10 col-md-8 col-xs-10 col-xs-offset-1">
-                                            <input id="prenom" name="name" type="text" placeholder="Prénom" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <span class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-xs-12 text-left"><i class="fa fa-user bigicon"></i></span>
-                                        <div class="col-lg-10 col-md-8 col-xs-10 col-xs-offset-1">
-                                            <input id="nom" name="name" type="text" placeholder="Nom" class="form-control">
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <span class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-xs-12 text-left"><i class="fa fa-envelope-o bigicon"></i></span>
-                                        <div class="col-lg-10 col-md-8 col-xs-10 col-xs-offset-1">
-                                            <input id="email" name="email" type="text" placeholder="Adresse email" class="form-control">
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <span class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-xs-12 text-left"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                        <div class="col-lg-10 col-md-8 col-xs-10 col-xs-offset-1">
-                                            <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message. Nous reviendrons vers vous dès que possible." rows="7"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                            <button type="submit" class="faqbtn btn-lg">Envoyer</button>
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row" id="come">
-                <div class="col-lg-8 col-sm-12 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">REJOIGNEZ-NOUS SUR :</h2>
-                    <hr class="primary">
-                </div>
-                <div class="col-lg-12 col-sm-12 text-center">
-                    <a href="https://twitter.com/?lang=fr" class="icon-button twitter">
-                        <i class="fa fa-twitter"></i>
-                        <span></span>
-                    </a>
-
-                    <a href="https://fr-fr.facebook.com/" class="icon-button facebook">
-                        <i class="fa fa-facebook"></i>
-                        <span></span>
-                    </a>
-
-                    <a href="http://www.google.com/intl/fr/+/learnmore/" class="icon-button gplus">
-                        <i class="fa fa-google"></i>
-                        <span></span>
-                    </a>
-
-                    <a href="https://github.com/Simplon-Roubaix/heros" class="icon-button github">
-                        <i class="fa fa-github"></i>
-                        <span></span>
-                    </a>
-
-                </div>
-            </div>
-
-    </section>
-    <!--#contact-->
-
-
-    <!-- /////////////////////////////////CONTRIBUER//////////////////////////////////// -->
-
-
-    <div class="contribuer" id="contribuer">
-        <h2 class="uppercase">CONTRIBUER AU DéVELOPPEMENT DU SITE</h2>
-
-        <br>
-        <p>Si vous en avez l'envie et les bases (vous connaissez Github), vous pouvez contribuer au développement de ce site, et devenir un partenaire à part entière de l'évolution du site.</p>
-        <p>
-            <a href="https://github.com/Simplon-Roubaix/heros" class="icon-button github">
-                <i class="fa fa-github"></i>
-                <span></span>
-            </a>
-        </p>
-
-    </div>
-    <!--contribuer-->
 
 
     <!-- /////////////////////////////////FAQ/////////////////////////////////////////// -->
-
-    <div class="containerfaq" id="questions">
+  <div class ="row">
+    <div class="containerfaq col-lg-12" id="questions">
         <div class="faq">
             <h2 class="uppercase">QUESTIONS FRéQUENTES</h2>
             <br>
@@ -266,7 +114,7 @@
 
 
             <div class="panel-group accordion">
-                <div class="faqHeader">Inscription</div>
+                <div class="faqHeader">F.A.Q</div>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
@@ -285,7 +133,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Question 2?</a>
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Comment contacter PMS ?</a>
                         </h4>
                     </div>
                     <div id="collapse2" class="panel-collapse collapse">
@@ -297,7 +145,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Question 3?</a>
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Que faire si je perds mon mot de passe ou mon identifiant de compte?</a>
                         </h4>
                     </div>
                     <div id="collapse3" class="panel-collapse collapse">
@@ -306,10 +154,34 @@
                         </div>
                     </div>
                 </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Sur Internet, mes informations sont-elles sécurisées ?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Réponse4
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5">Que faire si je suis bloqué à un niveau?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Réponse5
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
-            <div class="panel-group accordion">
+            <!-- <div class="panel-group accordion">
                 <div class="faqHeader">Partie rapide</div>
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -469,10 +341,101 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!--faq-->
+      </div>
     </div>
     <!--containerfaq-->
+
+    <!-- /////////////////////////////////CONTACT/////////////////////////////////////// -->
+
+    <section id="contact" class="contact container">
+        <div class="row text-center">
+            <div class="col-lg-12 col-xs-12">
+            <h2>CONTACTEZ-NOUS </h2>
+            <br>
+        </div>
+    </div>
+            <div class="containercontact">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="well well-sm">
+                            <form action="" method="post" enctype="text/plain" class="form-horizontal">
+                                <!-- ajouter la redirection des données vers notre mail avec backend -->
+                                <fieldset>
+                                    <br>
+                                    <!-- <legend class="text-center headercontact"></legend> -->
+
+                                    <div class="form-group">
+                                        <span class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-xs-12 text-left"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-lg-10 col-md-8 col-xs-10 col-xs-offset-1">
+                                            <input id="prenom" name="name" type="text" placeholder="Prénom" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-xs-12 text-left"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-lg-10 col-md-8 col-xs-10 col-xs-offset-1">
+                                            <input id="nom" name="name" type="text" placeholder="Nom" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <span class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-xs-12 text-left"><i class="fa fa-envelope-o bigicon"></i></span>
+                                        <div class="col-lg-10 col-md-8 col-xs-10 col-xs-offset-1">
+                                            <input id="email" name="email" type="text" placeholder="Adresse email" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <span class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-xs-12 text-left"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                        <div class="col-lg-10 col-md-8 col-xs-10 col-xs-offset-1">
+                                            <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message. Nous reviendrons vers vous dès que possible." rows="7"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                            <button type="submit" class="faqbtn btn-lg">Envoyer</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="come">
+                <div class="col-lg-8 col-sm-12 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">REJOIGNEZ-NOUS SUR :</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <a href="https://twitter.com/?lang=fr" class="icon-button twitter">
+                        <i class="fa fa-twitter"></i>
+                        <span></span>
+                    </a>
+
+                    <a href="https://fr-fr.facebook.com/" class="icon-button facebook">
+                        <i class="fa fa-facebook"></i>
+                        <span></span>
+                    </a>
+
+                    <a href="http://www.google.com/intl/fr/+/learnmore/" class="icon-button gplus">
+                        <i class="fa fa-google"></i>
+                        <span></span>
+                    </a>
+
+                    <a href="https://github.com/Simplon-Roubaix/heros" class="icon-button github">
+                        <i class="fa fa-github"></i>
+                        <span></span>
+                    </a>
+
+                </div>
+            </div>
+
+    </section>
+    <!--#contact-->
 
 
 <!-- /////////////////////////////////FOOTER/////////////////////////////////////////// -->

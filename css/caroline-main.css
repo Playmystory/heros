@@ -16,6 +16,9 @@ html {
     line-height: 1.4;
 }
 
+body {
+  font-family: 'Kurale', serif;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -97,20 +100,13 @@ textarea {
 
 
    /* =========================general============================ */
-body {
-    background-color: rgba(255,255,255,0.5);
-    padding-top: 60px;
-    color:#212328;
-    font-family: 'Audiowide', cursive;
-    text-align: justify;
-}
 
 .breadcrumb {
     background-color:rgba(255,255,255,0.5);
 }
 
 h2 {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
     color:#212328;
     text-align: center;
     font-size: 2.5em;
@@ -134,7 +130,7 @@ p {
   left: 0;
   top: 0;
   text-align: center;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Kurale', serif;
   color: rgb(0, 0, 0) !important;
   margin: auto;
 }
@@ -165,7 +161,7 @@ nav li a {
   margin-top: 10px;
   padding: 5px 0;
   font-size: 1.1em;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Kurale', serif;
 }
 .btn-general:hover {
   background-color: #9d9d9d !important;
@@ -196,11 +192,18 @@ margin-top: 5px;
 
 /* =========================qui sommes-nous=========================== */
 
+#who {
+    padding: 100px 0;
+}
+
+#who2 {
+    padding: 60px 0;
+}
+
 .quisommesnous {
-    padding-top: 60px;
-    padding:20px;
     margin-top:20px;
     margin-bottom: 20px;
+    padding: 60px,0;
 }
 
 /*/avatars///*/
@@ -325,17 +328,23 @@ transition: all .5s ease;
     padding-right: 5px;
 }
 
+
+
 .about {
-    padding-top: 60px;
     background-color:#eceff1;
     padding:20px;
 }
-
+#about{
+    padding: 60px 0;
+}
 /* =========================contact============================ */
 
+#contact {
+    padding: 60px 0;
+
+}
 .contact {
     margin-top:30px;
-    padding-top: 60px;
     padding:20px;
 }
 
@@ -360,11 +369,11 @@ background-image: none;
 }
 
 .faqbtn {
-    background-color:#E3001B;
+    background-color:#283593;
     color: #fff;
     border: 2px solid #283593 !important;
     /*background-image: none;*/
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
 }
 
 .faqbtn:hover {
@@ -422,11 +431,21 @@ background-image: none;
     color:#283593;
 }
 
+.form-control {
+    font-family: 'Kurale', serif !important;
+}
+/* =========================rejoindre============================ */
+
+#come {
+padding: 60px 0;
+}
 
 /* =========================contribuer============================ */
 
+#contribuer {
+    padding: 60px 0;
+}
 .contribuer {
-    padding-top: 60px;
     background-color:#eceff1;
     padding:20px;
 }
@@ -436,17 +455,19 @@ background-image: none;
 }
 
 .font {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
 }
 
 
 /* =========================FAQ============================ */
 
-
+#questions{
+    padding: 60px 0;
+}
 .panel-group {
-    padding-top: 60px;
+    padding: 60px 0;
     background-color: #eceff1;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif !important;
 }
 
 .faq {
@@ -523,7 +544,7 @@ background-image: none;
     }
 
     p {
-        font-family: 'Audiowide', cursive;
+        font-family: 'Kurale', serif;
         text-align: center;
         font-size: 1.5em;
         color:white;
