@@ -87,335 +87,69 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* ==========================================================================*/
+/*Home*/
 
-   /* NAVBAR*/
-
-   .navbar-brand {
-     position: absolute;
-     width: 100%;
-     left: 0;
-     top: 0;
-     text-align: center;
-     font-family: 'Audiowide', cursive;
-     color: rgb(0, 0, 0) !important;
-     margin: auto;
-   }
-
-   .navbar-inverse {
-     background-color: rgba(215, 215, 215, 0.6) !important;
-     background-image: none !important;
-     border: none !important;
-   }
-   #navdropd {
-     background-color: rgba(215, 215, 215, 0.6) !important;
-   }
-    #navdropd > li > a:hover {
-      background-image: none;
-      background-color: #9d9d9d !important;
-    }
-
-   nav li a {
-     padding: 5px !important;
-     margin-top: 8px !important;
-   }
-   .btn-general {
-     background-color: #283593 !important;
-     color: #fff !important;
-     border: 2px solid #283593 !important;
-     border-radius: 6%;
-     margin-left: 10px;
-     margin-right: 10px;
-     margin-top: 10px;
-     padding: 5px 0;
-     font-size: 1.1em;
-     font-family: 'Audiowide', cursive;
-   }
-   .btn-general:hover {
-     background-color: #9d9d9d !important;
-     color: #fff !important;
-     border: 2px solid #eceff1 !important;
-     margin-left: 15px;
-   }
-   .btn-extensed {
-     padding: 20px;
-     font-size: 1.4em
-   }
-
-    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {
-     background-color: #9d9d9d !important;
-     background-image: none;
-   }
-   .navbar-header button {
-     background-color: #283593;
-   }
-   .navbar-inverse .navbar-toggle .icon-bar{
-     background-color: #000000 !important;
-   }
-   .navbar-header .navbar-toggle {
-   padding: 10px 10px;
-   margin-top: 5px;
-   }
-
-   /*HEADER CONTENT*/
-
-   /*-------HEADER-----------*/
-
-   .container-fluid {
-     padding: 0;
-   }
-
-   #home {
-       height: 100vh;
-     margin-top: 50px;
-     margin-left: 0;
-     margin-right: 0;
-     overflow: hidden;
-     padding-bottom: 50px;
-
-   }
-
-
-   /*HEADER CONTENT*/
-
-   #home .row {
-     width: 100%;
-     margin: 0;
-
-   }
-   #logo-PMS img {
-     margin-top: 10px;
-     background-color: rgba(220, 220, 220, 0.7);
-     border-radius: 20px;
-     padding: 0 10px;
-   }
-   #slogan h1 {
-     font-size: 3em;
-     color:#283593 !important;
-     text-shadow: #E3001B 1px 1px, #E3001B -1px 1px, #E3001B -1px -1px, #E3001B 1px -1px;
-   }
-
-
-   /*CAROUSSEL NEWS*/
-
-   #newscarousel {
-     margin-top: 10px;
-     margin-bottom: 30px;
-   }
-   #newscarousel .item {
-     background-color: rgba(255, 255, 255, 0.5);
-     border-radius: 20px;
-     margin: 10px 10%;
-     padding: 10px 10% 20px 10%;
-   }
-   .carousel-inner {
-     color: #212328;
-   }
-   .carousel-inner h3 {
-     font-family: 'Audiowide', cursive;
-   }
-   .carousel-inner .btn-general{
-       background-color:#E3001B !important;
-     margin-top: 0;
-     padding: 0;
-   }
-   .carousel-indicators {
-     bottom: 0;
-   }
-   .carousel-indicators li {
-     border: 1px solid #283593;
-   }
-   .carousel-indicators .active {
-     background-color: #283593;
-   }
-
-   /*END NEWS CAROUSEL*/
-   /*END CONTENT */
-
-
-   /*Style de la police*/
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
+body {
+  font-family: 'Kurale', serif;
 }
 
-   body {
-     font-family: 'Audiowide', cursive;
-     font-size: 100%;
-   }
-
-   #topparties {
-   height: 100%;
-   }
-
-    #topcreation {
-     height: 100%;
-   }
-
-
-   /*taille, image de fond et position de la section parties*/
-   .parties {
-       background-color:#eceff1;
-       display:inline-block;
-       background-position: center;
-       background-size:cover;
-       padding-top:5%;
-       padding-bottom:5%;
-       height : 100vh;
-      }
-
-   @media all and (max-width:480px) {
-     .rapide {
-       background-position: -400px 0 ;
-     }
-     .campagne {
-       background-position: -200px 0;
-     }
-     .creation {
-       background-position: -200px;
-     }
-   }
-
-   /*Couleur des boutons*/
-   .btnperso {
-     background-color: #E3001B !important;
-     color: #fff !important;
-     border: 2px solid #283593 !important;
-      font-family: 'Audiowide', cursive;
-   }
-
-   /*Position du bouton*/
-   #partierapide {
-   margin: auto;
-   display: block;
-   margin-top: 10%;
-   margin-bottom: 5%;
-   }
-
-   /*Hover du bouton partie rapide*/
-   #partierapide:hover {
-     color:white !important;
-     background-color:#9d9d9d !important;
-     border: 2px solid white !important;
-   }
-
-   /* bordure, position et couleur de fond du bloc partie rapide*/
-   #rapide {
-     border:solid 3px #283593;
-     border-radius: 20px;
-     margin-top: 5%;
-     background-color:rgba(255,255,255,0.5);
-
-   }
-
-   /*bordure, position et couleur de fond du bloc partie campagne*/
-   #campagne {
-     border:solid 3px #283593;
-     border-radius: 20px;
-     margin-top: 5%;
-     background-color:rgba(255,255,255,0.5);
-   }
-
-   /*Position du bouton*/
-   #partiecampagne {
-     margin: auto;
-     display: block;
-     margin-top: 10%;
-     margin-bottom: 5%;
-   }
-
-   /*Hover du bouton partie campagne*/
-   #partiecampagne:hover {
-     color: white !important;
-     background-color:#9d9d9d !important;
-     border: 2px solid white !important;
-   }
-
-/*taille, image de fond et position de la section partie création*/
-.creation {
-  height : 100vh;
-  background-color:rgba(255,255,255,0.5);
-  background-position: center;
-  background-size: cover;
-  padding-top:5%;
-  padding-bottom:5%;
+#home {
+  height: 100vh;
 }
 
-#creation {
-  border:solid 3px #283593;
-  border-radius: 20px;
-  margin-top: 3%;
-  background-color:rgba(255,255,255,0.5);
-}
-
-#partiecreation {
-  margin: auto;
+.navbar {
+  height : 50px;
   display: block;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  z-index : 1;
+  font-size: 1.4em;
 }
 
-#partiecreation:hover {
-  color: white !important;
-  background-color:#9d9d9d !important;
-  border: 2px solid white !important;
+
+#logo {
+  height: 200px;
+  width: 150px;
+  margin-left: 45%;
+  margin-top : -85px;
+  position: absolute;
+  z-index: 1999;
 }
 
-   /*Couleur de fond du footer*/
-   footer {
-     background-color: #eceff1;
-      font-family: 'Audiowide', cursive;
-   }
 
-   /*Position de la FAQ*/
-   #faq {
-     padding-bottom: 5%;
-     margin-left: 15%;
-   }
+#video {
+  margin-top: 8%;
+  margin-left: 32%;
+}
 
-   /*Position de la liste de la FAQ*/
-   footer li {
-     margin-left: 15%;
-   }
+#titrehome {
+  margin-top: 2%;
+  font-size: 3em;
+}
 
-   footer li a {
-     color:#212328;
-   }
+#jouez {
+  margin-left: 43%;
+  margin-top: 3%;
+  width: 200px;
+  height: 50px;
+  font-size: 1.3em;
+}
 
-   /*hover de la liste de la FAQ*/
-   footer li a:hover {
-     color:#283593 !important;
-     text-decoration: none;
-   }
+/*section2*/
 
-   /*Position du titre réseaux sociaux*/
-   #reseaux {
-     padding-bottom: 5%;
-   }
+#infos {
+  height: 100vh;
+}
 
-   /*Position et couleur des fafa réseaux sociaux*/
-   #facebook, #twitter, #google {
-     margin-left: 15%;
-     color:#212328;
-   }
+#news {
+  height : 60vh;
+  font-size: 1.3em;
+}
 
-   #facebook:hover{
-     color:#283593 !important;
-   }
-
-   #twitter:hover{
-     color:#283593 !important;
-   }
-
-     #google:hover{
-     color:#283593 !important;
-   }
-
-
-
-
+#footer {
+  height : 40vh;
+  background-color: black;
+  color : white;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
