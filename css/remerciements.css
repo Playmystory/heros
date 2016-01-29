@@ -105,12 +105,12 @@ textarea {
 }
 
 body {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
     margin-top: 60px;
 }
 
 h2 {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
     color:#212328;
     text-align: center;
     font-size: 2.5em;
@@ -134,7 +134,7 @@ p {
   left: 0;
   top: 0;
   text-align: center;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Kurale', serif;
   color: rgb(0, 0, 0) !important;
   margin: auto;
 }
@@ -165,7 +165,7 @@ nav li a {
   margin-top: 10px;
   padding: 5px 0;
   font-size: 1.1em;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Kurale', serif;
 }
 .btn-general:hover {
   background-color: #9d9d9d !important;
@@ -195,10 +195,6 @@ margin-top: 5px;
 
 
 /* =========================qui sommes-nous=========================== */
-
-/*#who {
-    padding-top: 50px;
-}*/
 
 .quisommesnous {
     margin-top:20px;
@@ -348,7 +344,7 @@ transition: all .5s ease;
 }
 
 .font {
-    font-family: 'Audiowide', cursive;
+    font-family: 'Kurale', serif;
 }
 
 .icon-button:hover i {
@@ -386,7 +382,7 @@ transition: all .5s ease;
     }
 
     p {
-        font-family: 'Audiowide', cursive;
+        font-family: 'Kurale', serif;
         text-align: center;
         font-size: 1.5em;
         color:white;
