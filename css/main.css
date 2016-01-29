@@ -92,10 +92,11 @@ textarea {
    ========================================================================== */
 /*/////////////////////// GENERAL /////////////////////////////////*/
 
+
     body {
         background-color: rgba(255,255,255,0.5);
         color:#212328;
-        font-family: 'Audiowide', cursive;
+        font-family: "'Audiowide', cursive;"
         text-align: justify;
     }
 
